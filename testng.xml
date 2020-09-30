@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Listeners_Page.ReportPage" />
+    </listeners>
+
+    <test verbose="2" name="C:/Users/yaseen/IdeaProjects/AutomationProjectAmazon">
+        <classes>
+
+
+            <class name="TestCases.Login"/>
+            <class name="TestCases.ValidateSearch"/>
+            <class name="TestCases.PinCode"/>
+            <class name="TestCases.Sorting"/>
+            <class name="TestCases.NavigateProductDetail"/>
+            <class name="TestCases.FooterElements"/>
+            <class name="TestCases.Address"/>
+            <class name="TestCases.FilterProducts"/>
+
+
+
+
+        </classes>
+    </test>
+</suite>
